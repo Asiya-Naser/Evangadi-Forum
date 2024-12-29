@@ -206,6 +206,7 @@ const Answer = ({ user, storeUser }) => {
             </>
           );
         })}
+        {/* pagination */}
         <div className={classes.pagination}>
                   <button onClick={handlePreviousPage} disabled={currentPage === 1} 
                   className={classes.pagination__button}>
